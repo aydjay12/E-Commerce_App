@@ -36,7 +36,7 @@ const App = () => {
   }, []);
   return (
     <div className="App">
-      <Router basename="/E-Commerce-App">
+      <Router basename="/E-Commerce_App">
         <AnimatedRoutes></AnimatedRoutes>
       </Router>
       {showButton && (
